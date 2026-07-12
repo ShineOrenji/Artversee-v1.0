@@ -5,10 +5,10 @@
 
 const Model = {
 
-  githubUser: "Omicron69",
+  githubUser: "ShineOrenji",
 
   // Where the contact form delivers (via formsubmit.co relay)
-  contactEmail: "mez.rahman777@gmail.com",
+  contactEmail: "shineorenji@gmail.com",
 
   // App state (read/written by the Controller, displayed by the View)
   state: {
@@ -21,65 +21,33 @@ const Model = {
   // ---- Featured projects (hand-written, shown above the GitHub feed) ----
   featured: [
     {
-      title: "BSL Fingerspelling: “Hands”",
+      title: "LEARNING Tailwind CSS",
       tag: "Live App", color: "#3dff6e", live: true,
-      url: "https://bslgame.co.uk/", cta: "Play at bslgame.co.uk →",
+      url: "#", cta: "Play at bslgame.co.uk →",
       img: "assets/projects/bsl.png",
-      desc: "A game that teaches you the BSL alphabet using nothing but your webcam. Built with React, Node.js, TensorFlow.js and MediaPipe hand tracking. This was my final year project and it scored an A+ at 87/100.",
+      desc: "Lembur part 11",
     },
     {
       title: "Steam Review Sentiment with Transformers",
       tag: "NLP", color: "#e60012",
-      url: "https://github.com/Omicron69/Granular-Sentiment-Pipeline-Class-Weighted-Transformers-for-Steam-Reviews",
+      url: "#",
       cta: "View on GitHub →",
       img: "assets/projects/steam.png",
-      desc: "Fine-tuned DistilBERT, BERTweet and RoBERTa to sort Steam reviews into a custom six-class sentiment taxonomy, with class weighting to handle the imbalance. RoBERTa came out on top at 88.2% F1.",
+      desc: "SOON AAMIIN",
     },
     {
       title: "DownloadGuard",
       tag: "Security", color: "#f1e05a",
-      url: "https://github.com/Omicron69/DownloadGuard", cta: "View on GitHub →",
+      url: "#", cta: "View on GitHub →",
       img: "assets/projects/downloadguard.png",
-      desc: "A Chrome extension that protects everyday users in real time. It watches for malicious downloads, phishing emails, deceptive links and QR code scams, all layered into one Manifest V3 extension.",
+      desc: "SOON AAMIIN",
     },
     {
       title: "Medical Image Classification",
       tag: "Deep Learning", color: "#3178c6",
-      url: "https://github.com/Omicron69/organsmnist-cnn-classification", cta: "View on GitHub →",
+      url: "#", cta: "View on GitHub →",
       img: "assets/projects/medcnn.png",
-      desc: "Classifying organs in CT scans, from a baseline dense net to five custom CNNs to fine-tuned ResNet50 and EfficientNetB0, reaching 79% test accuracy on 25,000+ OrganSMNIST images.",
-    },
-  ],
-
-  // Repos already shown in "featured" get hidden from the GitHub feed
-  featuredRepoNames: [
-    "BritishFingerSpellingAI",
-    "Granular-Sentiment-Pipeline-Class-Weighted-Transformers-for-Steam-Reviews",
-    "DownloadGuard",
-    "organsmnist-cnn-classification",
-  ],
-
-  // Shown if the GitHub API can't be reached
-  fallbackRepos: [
-    {
-      name: "crime-analysis-montgomery-county", language: "Jupyter Notebook", stargazers_count: 0,
-      html_url: "https://github.com/Omicron69/crime-analysis-montgomery-county",
-      description: "Ten years of Montgomery County crime data, taken from a messy 90 MB government CSV to ten answered analytical questions, geospatial hotspot maps and a district safety ranking.",
-    },
-    {
-      name: "asthma-worsening-prediction", language: "MATLAB", stargazers_count: 0,
-      html_url: "https://github.com/Omicron69/asthma-worsening-prediction",
-      description: "Predicting worsening asthma symptoms from NHS primary-care data with SQL and MATLAB, following CRISP-DM. Compares four models on a heavily imbalanced clinical dataset.",
-    },
-    {
-      name: "Chronic-Kideney-Disease-Analyzer", language: "PHP", stargazers_count: 0,
-      html_url: "https://github.com/Omicron69/Chronic-Kideney-Disease-Analyzer",
-      description: "A healthcare tracking web app. I led the front-end and requirements analysis in a multidisciplinary team, and our solution improved patient diagnostics by 25%.",
-    },
-    {
-      name: "MSc-Washington-Crime-Analysis-with-Pandas", language: "Jupyter Notebook", stargazers_count: 0,
-      html_url: "https://github.com/Omicron69/MSc-Washington-Crime-Analysis-with-Pandas",
-      description: "Crime trend analysis of Washington D.C. public data. Reproducible Pandas notebooks with visual summaries written for people who do not code.",
+      desc: "SOON AAMIIN",
     },
   ],
 
@@ -96,26 +64,28 @@ const Model = {
   },
 
   // ---- Skills screen ----
-  skills: [
-    { group: "AI · ML · Data Science", items: [
-      ["Python · pandas · NumPy", 92], ["TensorFlow / Keras · PyTorch", 88],
-      ["scikit-learn · XGBoost", 86], ["CNNs & Transfer Learning", 85],
-      ["NLP & Transformers", 82], ["Computer Vision · MediaPipe", 86],
-    ]},
-    { group: "Web & Full-Stack", items: [
-      ["JavaScript / TypeScript", 86], ["React · React Native · Next.js", 84],
-      ["Node.js · REST APIs", 80], ["TensorFlow.js (in-browser ML)", 84],
-      ["PHP · SQL · PostgreSQL", 74], ["UX Design · Figma · Adobe XD", 82],
-    ]},
-    { group: "Cloud & Engineering", items: [
-      ["Git & GitHub", 88], ["AWS · Azure · GCP", 74],
-      ["Docker · Firebase", 76], ["Agile · PRINCE2 Agile", 80],
-      ["Tableau · Power BI", 72], ["Bash · PowerShell", 75],
-    ]},
-    { group: "Spoken Languages", items: [
-      ["English · Bengali · Hindi · Urdu", 100], ["Japanese (JLPT N4)", 62], ["Mandarin", 30],
-    ]},
-  ],
+skills: [
+  { group: "TECH", items: [
+    ["HTML5 · CSS · Tailwind CSS", 90], ["JavaScript", 80],
+    ["Python Dasar", 72], ["Laravel", 65],
+    ["MySQL · Database", 75], ["Git & GitLab", 80],
+  ]},
+  { group: "Web Development", items: [
+    ["Responsive Web Design", 88], ["Bootstrap 5", 90],
+    ["Tailwind CSS", 75], ["PHP Dasar", 68],
+    ["WordPress", 82], ["UI/UX Dasar", 70],
+  ]},
+  { group: "Creative & Design", items: [
+    ["Blender 3D", 78], ["3D Modeling", 75],
+    ["3D Animation", 70], ["Manual Drawing", 80],
+    ["Video Editing", 72], ["Content Creation", 70],
+  ]},
+  { group: "Tools & Productivity", items: [
+    ["VS Code", 88], ["GitHub", 82], ["GitLab", 82],
+    ["Laragon · XAMPP", 80], ["Microsoft Office", 85],
+    ["Windows Troubleshooting", 88],
+  ]},
+],
 
   // ---- Data fetching ----
   async fetchRepos() {
