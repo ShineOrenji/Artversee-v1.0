@@ -23,7 +23,7 @@ const Model = {
     {
       title: "LEARNING Tailwind CSS",
       tag: "Live App", color: "#3dff6e", live: true,
-      url: "#", cta: "Play at bslgame.co.uk →",
+      url: "#", cta: "Lansung saja →",
       img: "assets/projects/bsl.png",
       desc: "Lembur part 11",
     },
