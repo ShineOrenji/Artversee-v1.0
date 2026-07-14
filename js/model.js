@@ -7,13 +7,11 @@ const Model = {
 
   githubUser: "ShineOrenji",
 
-  // Where the contact form delivers (via formsubmit.co relay)
   contactEmail: "shineorenji@gmail.com",
 
-  // App state (read/written by the Controller, displayed by the View)
   state: {
-    screen: "home",        // which screen is showing
-    menuIndex: 0,          // selected item on the home menu
+    screen: "home",        // Nampilin layar doang sih
+    menuIndex: 0,          
     reposLoaded: false,
     skillsBuilt: false,
   },
